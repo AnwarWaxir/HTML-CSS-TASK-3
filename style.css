@@ -1,0 +1,164 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color: black;
+}
+
+.div-1 {
+    width: 800px;
+    height: 500px;
+    background-color: #f9f7f8;
+    justify-content: center;
+    align-content:center
+    
+}
+
+.div-2 {
+    display:flex;
+    width: 700px;
+    height: 400px;
+    margin: 50px;
+    box-shadow: 1px 5px 15px rgb(121, 104, 83);
+    
+}
+
+.div-3-a {
+    width: 50%;
+    height: 100%;
+    justify-content:left;
+    background-image: url(assets/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-3-a img {
+    width: 40px;
+    margin: 30px 0 0 25px;
+}
+
+.div-3-a h1 {
+    margin: 100px 0 0 50px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+
+.div-3-b {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.div-3-b-1 {
+    width: 75%;
+    height: 75%;
+    margin: 12.5% auto;
+}
+
+.div-3-b-1 h1 {
+    font-size: x-large;
+    padding: 5px;
+}
+
+.div-3-b-1 p {
+    font-size:small;
+    margin-bottom: 10px;
+    color: #cdcdcd;
+}
+
+.username {
+    padding-top: 12px;
+}
+
+.username label {
+    font-size: smaller;
+    color: black
+}
+
+.username input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(63, 63, 63, 0.2);
+    outline: none;
+    border-radius:2px;
+    padding: 6px;
+    background-color: transparent;
+    margin-top: 6px;
+}
+
+.password {
+    padding-top: 12px;
+}
+
+.password label {
+    font-size: smaller;
+    color: black
+}
+
+.password input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(63, 63, 63, 0.2);
+    outline: none;
+    border-radius:3px;
+    padding: 6px;
+    background-color: transparent;
+    margin-top: 6px;
+}
+
+.remember-me {
+    padding: 12px 0 12px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember-me label {
+    font-size: smaller;
+}
+
+.remember-me a {
+    font-size: smaller;
+    text-decoration: none;
+    color: #8652ff;
+}
+
+.remember-me input {
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    color: #8652ff;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(63, 63, 63, 0.2);
+    outline: none;
+    border-radius:3px;
+    padding: 6px;
+    margin: 8px 0 20px 0;
+    background-color: #8652ff;
+    color: rgb(238, 226, 204);
+}
+
+.sign-up p {
+    color: #665b5b;
+}
+
+.sign-up a {
+    padding-left: 8px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #8652ff;
+}
